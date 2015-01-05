@@ -14,7 +14,7 @@ HTMLWidgets.widget({
   },
 
   renderValue: function(el, x, instance) {
-    var params = $.extend({}, x.data_options, x.layout_options);
+    var params = $.extend({}, x.data_options, x.layout_options, x.graphic_options);
     
     // convert date string to Date object
     params.data = MG.convert.date( HTMLWidgets.dataframeToD3(params.data), "date" );
