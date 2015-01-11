@@ -38,7 +38,7 @@ MG.data.frame <- function(data, missing_is_zero = NULL,
     x,
     width   = width,
     height  = height,
-    package = 'metricsgraphics'
+    package = 'mxgx'
   )
 }
 
@@ -46,7 +46,7 @@ MG.data.frame <- function(data, missing_is_zero = NULL,
 #'
 #' @export
 MGOutput <- function(outputId, width = '100%', height = '400px'){
-  shinyWidgetOutput(outputId, 'MG', width, height, package = 'metricsgraphics')
+  shinyWidgetOutput(outputId, 'MG', width, height, package = 'mxgx')
 }
 
 #' Widget render function for use in Shiny
