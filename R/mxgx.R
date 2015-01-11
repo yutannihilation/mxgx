@@ -1,6 +1,6 @@
 #' metrics-graphics.js for R
 #'
-#' @name metricsgraphics-package
+#' @name mxgx
 #' @docType package
 #' @seealso \url{http://metricsgraphicsjs.org/}
 #' @import htmlwidgets
